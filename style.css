@@ -1,0 +1,19 @@
+
+@font-face {
+  font-family: "Sporting";
+  src: url("fonts/Sporting_Grotesque-Bold_web.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sporting";
+  src: url("fonts/Sporting_Grotesque-Regular_web.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
