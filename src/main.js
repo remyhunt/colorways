@@ -51,15 +51,14 @@ const dropHandler = (e) => {
 }
 
 const drawPalette = (palette) => {
+    paletteCard.innerHTML = "";
     palette.forEach((color, c) => {
         const hex = toHex(color);
-        console.log(color, hex)
         const newDiv = document.createElement("div");
         const footerLeft = document.getElementById("footer-left");
         paletteCard.appendChild(newDiv)
 
         // document.body.style.backgroundColor = `${'rgb(' + palette[0][0] + ', ' + palette[0][1] + ', ' + palette[0][2] + ')'}`
-
 
         newDiv.innerHTML = `
         <div class="palette-item flex flex-row w-[100px] cursor-pointer hover:w-[300px] transition-all relative">
