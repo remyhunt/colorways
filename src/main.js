@@ -5,8 +5,13 @@ const paletteCard = document.getElementById('palette-card');
 const imgSrc = document.getElementById('src-image');
 const imgCard = document.getElementById('img-card');
 const imageInput = document.querySelector('input');
-var imgurl = 'img/sb.png'
+const files = ['sb.png', 'gg.png', 'nb.png', 'cdg.png']
+
+let x = Math.floor(Math.random() * 4)
+var imgurl = `img/${files[x]}`
 imgSrc.src = imgurl
+
+console.log('test', x);
 
 const uploadFile = async (event) => {
     const file = imageInput.files[0]
@@ -52,10 +57,13 @@ const dropHandler = (e) => {
 
 const drawPalette = (palette) => {
     paletteCard.innerHTML = "";
+
+    title.style.textShadow = `5px 5px ${toHex(palette[2])}`;
     palette.forEach((color, c) => {
         const hex = toHex(color);
         const newDiv = document.createElement("div");
         const footerLeft = document.getElementById("footer-left");
+        const title = document.getElementById("title");
         paletteCard.appendChild(newDiv)
 
         // document.body.style.backgroundColor = `${'rgb(' + palette[0][0] + ', ' + palette[0][1] + ', ' + palette[0][2] + ')'}`

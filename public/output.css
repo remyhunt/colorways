@@ -683,16 +683,12 @@ video {
   display: none;
 }
 
-.h-\[100vh\] {
-  height: 100vh;
-}
-
 .h-full {
   height: 100%;
 }
 
-.h-\[80vh\] {
-  height: 80vh;
+.h-\[50vh\] {
+  height: 50vh;
 }
 
 .h-\[500px\] {
@@ -703,10 +699,6 @@ video {
   height: 80px;
 }
 
-.h-\[50vh\] {
-  height: 50vh;
-}
-
 .min-h-\[100vh\] {
   min-height: 100vh;
 }
@@ -715,28 +707,12 @@ video {
   width: 100%;
 }
 
-.w-\[80vw\] {
-  width: 80vw;
-}
-
-.w-\[100px\] {
-  width: 100px;
-}
-
-.w-\[50vw\] {
-  width: 50vw;
-}
-
 .w-\[40vw\] {
   width: 40vw;
 }
 
-.max-w-\[50vw\] {
-  max-width: 50vw;
-}
-
-.max-w-\[40vw\] {
-  max-width: 40vw;
+.w-\[100px\] {
+  width: 100px;
 }
 
 .grow {
@@ -796,12 +772,6 @@ video {
   justify-content: space-evenly;
 }
 
-.space-y-\[50rem\] > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(50rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(50rem * var(--tw-space-y-reverse));
-}
-
 .space-y-\[10rem\] > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(10rem * calc(1 - var(--tw-space-y-reverse)));
@@ -830,24 +800,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-}
-
 .bg-yellow-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 240 138 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -883,10 +838,6 @@ video {
 
 .text-\[1\.4rem\] {
   font-size: 1.4rem;
-}
-
-.text-\[3rem\] {
-  font-size: 3rem;
 }
 
 .text-\[2rem\] {
@@ -1009,14 +960,6 @@ video {
     margin-top: 0px;
   }
 
-  .lg\:h-\[60\%\] {
-    height: 60%;
-  }
-
-  .lg\:w-\[35\%\] {
-    width: 35%;
-  }
-
   .lg\:w-\[30\%\] {
     width: 30%;
   }
@@ -1025,11 +968,15 @@ video {
     flex-direction: row;
   }
 
-  .lg\:text-\[2rem\] {
-    font-size: 2rem;
-  }
-
   .lg\:text-\[1\.8rem\] {
     font-size: 1.8rem;
+  }
+
+  .lg\:text-\[3\.2rem\] {
+    font-size: 3.2rem;
+  }
+
+  .lg\:text-\[3\.5rem\] {
+    font-size: 3.5rem;
   }
 }
