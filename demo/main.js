@@ -1,4 +1,4 @@
-import { getPalette, toHex } from './colorways.js'
+import { getPalette, toHex } from '../src/colorways.js'
 
 // const container = document.querySelector('#container')
 const paletteCard = document.getElementById('palette-card');
