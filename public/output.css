@@ -828,8 +828,8 @@ video {
   font-family: 'Sporting';
 }
 
-.text-\[3\.2rem\] {
-  font-size: 3.2rem;
+.text-\[2rem\] {
+  font-size: 2rem;
 }
 
 .text-\[1rem\] {
@@ -838,10 +838,6 @@ video {
 
 .text-\[1\.4rem\] {
   font-size: 1.4rem;
-}
-
-.text-\[2rem\] {
-  font-size: 2rem;
 }
 
 .font-\[700\] {
@@ -968,15 +964,11 @@ video {
     flex-direction: row;
   }
 
-  .lg\:text-\[1\.8rem\] {
-    font-size: 1.8rem;
-  }
-
-  .lg\:text-\[3\.2rem\] {
-    font-size: 3.2rem;
-  }
-
   .lg\:text-\[3\.5rem\] {
     font-size: 3.5rem;
+  }
+
+  .lg\:text-\[1\.8rem\] {
+    font-size: 1.8rem;
   }
 }

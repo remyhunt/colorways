@@ -2,6 +2,9 @@ import { quantize } from './quantize.js'
 
 const getPalette = (imgSrc, amtColors, callback) => {
     
+  const noop = () => {};
+  callback = callback || noop;
+  
   var canvas = document.createElement('canvas');
   var context = canvas.getContext("2d");
   
