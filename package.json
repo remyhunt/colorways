@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "tailwind": "npx tailwindcss -i ./style.css -o ./public/output.css --watch"
+    "tailwind": "npx tailwindcss -i ./demo/style.css -o ./public/output.css --watch"
   },
   "devDependencies": {
     "@types/node": "^17.0.35",
