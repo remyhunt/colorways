@@ -655,6 +655,21 @@ video {
   margin-right: 2rem;
 }
 
+.mx-\[10px\] {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mx-\[200px\] {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-\[5rem\] {
   margin-top: 5rem;
 }
@@ -699,6 +714,18 @@ video {
   height: 80px;
 }
 
+.h-\[80vh\] {
+  height: 80vh;
+}
+
+.h-\[60vh\] {
+  height: 60vh;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
 .min-h-\[100vh\] {
   min-height: 100vh;
 }
@@ -713,6 +740,22 @@ video {
 
 .w-\[100px\] {
   width: 100px;
+}
+
+.w-\[100vw\] {
+  width: 100vw;
+}
+
+.w-\[calc\(100vw-20px\)\] {
+  width: calc(100vw - 20px);
+}
+
+.w-\[calc\(100vw-200px\)\] {
+  width: calc(100vw - 200px);
+}
+
+.w-\[calc\(100vw-40px\)\] {
+  width: calc(100vw - 40px);
 }
 
 .grow {
@@ -822,6 +865,16 @@ video {
 .px-\[1rem\] {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.px-\[50px\] {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .font-\[\'Sporting\'\] {
@@ -956,6 +1009,48 @@ video {
           text-decoration-line: none;
 }
 
+@media (min-width: 768px) {
+  .md\:h-\[40vw\] {
+    height: 40vw;
+  }
+
+  .md\:h-\[40vh\] {
+    height: 40vh;
+  }
+
+  .md\:h-\[50vh\] {
+    height: 50vh;
+  }
+
+  .md\:h-\[500px\] {
+    height: 500px;
+  }
+
+  .md\:h-\[600px\] {
+    height: 600px;
+  }
+
+  .md\:w-\[40vw\] {
+    width: 40vw;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .md\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:mt-0 {
     margin-top: 0px;
@@ -963,6 +1058,10 @@ video {
 
   .lg\:w-\[30\%\] {
     width: 30%;
+  }
+
+  .lg\:w-\[40vw\] {
+    width: 40vw;
   }
 
   .lg\:flex-row {
@@ -973,19 +1072,11 @@ video {
     font-size: 3.5rem;
   }
 
-  .lg\:text-\[1\.7rem\] {
-    font-size: 1.7rem;
+  .lg\:text-\[1\.3rem\] {
+    font-size: 1.3rem;
   }
 
   .lg\:text-\[1\.8rem\] {
     font-size: 1.8rem;
-  }
-
-  .lg\:text-\[1\.4rem\] {
-    font-size: 1.4rem;
-  }
-
-  .lg\:text-\[1\.3rem\] {
-    font-size: 1.3rem;
   }
 }
